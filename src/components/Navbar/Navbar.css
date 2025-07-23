@@ -1,0 +1,137 @@
+/* الاتجاه حسب اللغة */
+.navbar.rtl {
+  direction: rtl;
+}
+
+.navbar.ltr {
+  direction: ltr;
+}
+
+.navbar.navbar-expand-lg {
+  background-color: var(--main-color) !important;
+  padding: 0;
+  height: 60px;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar.navbar-expand-lg ul {
+  color: var(--light-color);
+}
+
+.navbar.navbar-expand-lg li {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.navbar.navbar-expand-lg li:hover {
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+.navbar.navbar-expand-lg a {
+  color: var(--light-color);
+}
+
+.navbar.navbar-expand-lg li .dropdown-menu {
+  background: var(--main-color);
+  border: none;
+}
+
+.navbar.navbar-expand-lg li .dropdown-menu .dropdown-item {
+  background-color: transparent;
+  color: var(--light-color);
+}
+
+.navbar.navbar-expand-lg li .dropdown-menu .dropdown-item:hover {
+  color: var(--light-color);
+}
+
+.nav-item.dropdown {
+  position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu.custom-dropdown {
+  position: absolute;
+  top: 100%;
+}
+
+/* زر الهامبرجر */
+.navbar.navbar-expand-lg .navbar-toggler span {
+  font-size: 15px;
+}
+
+/* موبايل */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: var(--main-color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar-collapse li a {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    gap: 0;
+  }
+
+  .navbar-toggler {
+    pointer-events: auto;
+    opacity: 1;
+    border: 1px solid var(--light-color);
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .nav-link {
+    color: var(--light-color) !important;
+  }
+
+  .nav-link:hover {
+    color: var(--light-color) !important;
+  }
+
+  .nav-item.dropdown {
+    position: relative;
+  }
+
+  .nav-item.dropdown .dropdown-menu.custom-dropdown {
+    width: 100%;
+  }
+}
+
+/* موبايل صغير */
+@media (max-width: 500px) {
+  .navbar.navbar-expand-lg {
+    height: 40px;
+  }
+
+  .navbar.navbar-expand-lg ul {
+    color: var(--light-color);
+  }
+
+  .navbar.navbar-expand-lg li {
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .navbar.navbar-expand-lg .navbar-toggler span {
+    font-size: 15px;
+  }
+}
+.nav-link.active {
+  background-color: rgba(0, 0, 0, 0.267);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: var(--light-color) !important;
+}

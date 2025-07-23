@@ -1,0 +1,61 @@
+.service-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  direction: ltr;
+}
+
+.service-form-container.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.service-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.service-form input,
+.service-form select,
+.service-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+.service-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.service-form button {
+  background-color: var(--main-color, #d60000);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.service-form button:hover {
+  background-color: #b70000;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: -8px;
+}
+
+.success {
+  color: green;
+  margin-top: 10px;
+  font-weight: bold;
+}

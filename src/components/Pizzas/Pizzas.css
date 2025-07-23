@@ -1,0 +1,51 @@
+.Pizzas {}
+p {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--body-color);
+    text-transform: uppercase;
+}
+.Pizzas .card  , .Appetizers .card ,  .Desserts .card , .Crunchy .card {
+border: 1px var(--body-color) solid;
+}
+.card .card-body > b  {
+    color: var(--main-color);
+}
+.card .card-body > p  {
+    font-size: 10px;
+    font-weight: 600;
+}
+.Pizzas .card .card-body > span , .price >span {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+font-weight: 700;
+color: var(--body-color);
+}
+.card .card-body .dataPice {
+    gap: 10px;
+    
+}
+.card .card-body .dataPice > div {
+border: 1px solid rgba(0, 0, 0, 0.068);
+height: 35px;
+gap: 0 !important;
+}
+.card .card-body .dataPice > div span{
+    font-size:10px;
+    font-weight: 900;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+}
+.card .card-body .dataPice > div p  {
+    font-weight: 700;
+    font-size:13px;
+    white-space: nowrap;
+}
+.Pizzas .card .card-body .dataPice > div > p{
+    color: var(--main-color);
+}

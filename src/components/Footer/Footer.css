@@ -1,0 +1,52 @@
+.Footer{
+    background-color: var(--main-color);
+    padding: 20px;  
+}
+.Footer ul{
+    gap: 20px;
+}
+.Footer ul li{
+    list-style: none;
+    width: 100%;
+}
+.Footer ul li a{
+    text-decoration: none;
+    color: var(--light-color);
+    padding: 10px;
+    transition: 0.5s;
+}
+.Footer ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.171);
+}
+.Footer .facont{
+    gap: 20px;
+    color: var(--light-color);
+    
+}
+.Footer .facont .fa{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 5px;
+    border-radius: 10px;
+}
+    .Footer > p{
+        font-size: 10px;
+    }
+
+
+ @media (max-width:800px) {
+    .Footer{
+    background-color: var(--main-color);
+    padding: 10px 0 0 0;
+}
+.Footer ul{
+    flex-direction: column;
+}
+.Footer ul li a{
+ font-size: 13px;
+}
+.Footer .facont{
+    flex-direction: column;
+ }   
+}

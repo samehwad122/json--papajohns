@@ -1,0 +1,11 @@
+.Sections {}
+.Sections .card{
+    border: 1px var(--body-color) solid;
+}
+.Sections .card button{
+    border: none;
+    padding: 5px;
+    font-weight:500 ;
+    color: var(--light-color);
+    background-color: var(--body-color);
+}

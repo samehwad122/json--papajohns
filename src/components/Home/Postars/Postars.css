@@ -1,0 +1,88 @@
+.Postars .swiper-button-next , .Postars .swiper-button-prev{
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.363);
+  border-radius: 5px;
+}
+.Postars .swiper-button-next:hover , .Postars .swiper-button-prev:hover{
+  background-color: rgba(255, 255, 255, 0.596);
+  
+}
+    .Postars .swiper-button-next::after {
+  content: '›';
+  position: absolute;
+  top: 0;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.411);
+  padding: 0 !important;
+  margin: 0 !important;
+  
+}
+
+.swiper-button-prev::after {
+  content: '‹' !important;
+  position: absolute;
+  top: 0;
+  font-size: 35px !important;
+  color: rgba(0, 0, 0, 0.411);
+
+
+}
+.swiper-pagination-bullet{
+width: 12px !important;
+height: 12px !important;
+border-radius: 0% !important;
+border: 1px black solid;
+background-color: gray !important;
+cursor: pointer;
+}
+.swiper-pagination-bullet-active{
+  background-color: rgba(255, 255, 255, 0.5) !important;
+
+}
+
+
+@media (max-width:500px) {
+ .Postars .swiper-button-next , .Postars .swiper-button-prev{
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.363);
+  border-radius: 5px;
+}
+.Postars .swiper-button-next:hover , .Postars .swiper-button-prev:hover{
+  background-color: rgba(255, 255, 255, 0.596);
+  
+}
+    .Postars .swiper-button-next::after {
+  content: '›';
+  position: absolute;
+  top: 0;
+  font-size: 20px !important;
+  color: rgba(0, 0, 0, 0.411);
+  padding: 0 !important;
+  margin: 0 !important;
+  
+}
+
+.swiper-button-prev::after {
+  content: '‹' !important;
+  position: absolute;
+  top: 0;
+  font-size: 20px !important;
+  color: rgba(0, 0, 0, 0.411);
+
+
+}
+.swiper-pagination-bullet{
+width: 8px !important;
+height:8px !important;
+border-radius: 0% !important;
+border: 1px black solid;
+background-color: gray !important;
+cursor: pointer;
+}
+.swiper-pagination-bullet-active{
+  background-color: rgba(255, 255, 255, 0.5) !important;
+
+} 
+}

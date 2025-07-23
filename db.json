@@ -1,0 +1,751 @@
+{
+  "postars": [
+    {
+      "id": 1,
+      "post": "/public/images/posters/poster-1.jpg"
+    },
+    {
+      "id": 2,
+      "post": "/public/images/posters/poster-2.jpg"
+    },
+    {
+      "id": 3,
+      "post": "/public/images/posters/poster-3.jpg"
+    },
+    {
+      "id": 4,
+      "post": "/public/images/posters/poster-4.jpg"
+    },
+    {
+      "id": 5,
+      "post": "/public/images/posters/poster-5.jpg"
+    },
+    {
+      "id": 6,
+      "post": "/public/images/posters/poster-6.jpg"
+    },
+    {
+      "id": 7,
+      "post": "/public/images/posters/poster-7.jpg"
+    },
+    {
+      "id": 8,
+      "post": "/public/images/posters/poster-8.jpg"
+    },
+    {
+      "id": 9,
+      "post": "/public/images/posters/poster-9.jpg"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "image": "/public/images/pizzas/3-Cheese-2-Toppings.jpg",
+      "name": "3-Cheese-2-Toppings",
+      "Description": "A blend of 3 delicious cheeses with 2 toppings of your choice (veggie, meat or chicken)",
+            "nameAR": "3 تشيز 2X توبينج",
+      "DescriptionAR": "ثلاثه انواع من الجبن مع اضافتين من اختيارك (خضروات، لحوم، أو دجاج)",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "328",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "408",
+      "thinLarge ": "328",
+      "cheeseLarge ": "304",
+      "cheeseMedium ": "397"
+    },
+    {
+      "id": 2,
+      "image": "/public/images/pizzas/6-Cheese.jpg",
+      "name": "6-Cheese",
+      "Description": "A blend of 6 delicious cheeses (Gouda,Cheddar , Emmental, Romano, Mozzarella, Edam )",
+            "nameAR": "6 تشيز",
+      "DescriptionAR": "ست انواع لذيذه من الجبن فى بيتزا واحده (جوده، شيدر،رومانوا، موتزاريلا ،ايدام،امنتال) ",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "328",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "408",
+      "thinLarge ": "328",
+      "cheeseLarge ": "304",
+      "cheeseMedium ": "397"
+    },
+    {
+      "id": 3,
+      "image": "/public/images/pizzas/BBQ-Poppers-Pizza.jpg",
+      "name": "BBQ-Poppers",
+      "Description": "Chicken Poppers, Onions, Ranch Sauce with BBQ Sauce Drizzled on top.",
+            "nameAR": "بافلو تشيكن بوبرز",
+      "DescriptionAR": "تشيكن بوبرز-بصل- فلفل الهالبينو- صوص الرانش مع صوص البافلو",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "343",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "423",
+      "thinLarge ": "343",
+      "cheeseLarge ": "304",
+      "cheeseMedium ": "412"
+    },
+    {
+      "id": 4,
+      "image": "/public//images/pizzas/Buffalo-Poppers-Pizza.jpg",
+      "name": "Buffalo-Poppers",
+      "Description": "Chicken Poppers, Onions, Jalapeno Pepper, Ranch Sauce with Buffalo Sauce Drizzled on top",
+            "nameAR": "باربكيو تشيكن بوبرز",
+      "DescriptionAR": "تشيكن بوبرز- بصل- صوص الرانش مع صوص الباربكيو",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "343",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "423",
+      "thinLarge ": "343",
+      "cheeseLarge ": "304",
+      "cheeseMedium ": "412"
+    },
+    {
+      "id": 5,
+      "image": "/public/images/pizzas/Cha-Cha.jpg",
+      "name": "Cha-Cha",
+      "Description": "Chicken Poppers, Onions, Jalapeno Pepper, Ranch Sauce with Buffalo Sauce Drizzled on top",
+           "nameAR": "تشا تشا",
+      "DescriptionAR": "دجاج مشوي, سجق الدجاج, بصل, فلفل اخضر",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "378",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 6,
+      "image": "/public/images/pizzas/cheese-burger.jpg",
+      "name": "cheese-burger",
+      "Description": "Italian Sausage, Tomato, Onion, Mozzarella Cheese with Burger Sauce",
+            "nameAR": "تشيز برجر",
+      "DescriptionAR": "سجق ايطالى, طماطم, بصل, جبنة موتزاريلا مع صوص البرجر",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "378",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 7,
+      "image": "/public/images/pizzas/Chicken-BBQ.jpg",
+      "name": "Chicken-BBQ",
+      "Description": "Grilled Chicken, Onions, Fresh Mushroom, BBQ Sauce",
+            "nameAR": "تشيكن باربكيو",
+      "DescriptionAR": "دجاج مشوي, بصل, مشروم طازج, صوص الباربكيو",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "378",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 8,
+      "image": "/public/images/pizzas/Chicken-Ranch.jpg",
+      "name": "Chicken-Ranch",
+      "Description": "Grilled Chicken, Tomato, Fresh Mushroom, Jalapeno, Ranch Sauce",
+            "nameAR": "تشيكن رانش",
+      "DescriptionAR": "دجاج مشوي, طماطم, مشروم طازج, هالبينو, صوص الرانش",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "328",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "408",
+      "thinLarge ": "328",
+      "cheeseLarge ": "304",
+      "cheeseMedium ": "397"
+    },
+    {
+      "id": 9,
+      "image": "/public/images/pizzas/Chicken-Super-Papa.jpg",
+      "name": "Chicken-Super-Papa",
+      "Description": "Grilled chicken, Chicken Sausage, chicken Pepperoni, Fresh Mushroom, Onion, Green Pepper & Black Olives with Ranch sauce ",
+ "nameAR": "تشيكن سوبر بابا",
+      "DescriptionAR": " دجاج مشوي, سجق الدجاج, بيبرونى الدجاج, بصل, فلفل اخضر, مشروم طازج, زيتون اسود",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "378",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "397"
+    },
+    {
+      "id": 10,
+      "image": "/public/images/pizzas/Garden-Special.jpg",
+      "name": "Garden Special",
+      "Description": "Tomato, Onions, Green Pepper, Fresh Mushroom, Black Olives",
+       "nameAR": "جاردن سبيشيال",
+      "DescriptionAR": "طماطم, بصل, فلفل اخضر, مشروم طازج, زيتون اسود",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "378",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 11,
+      "image": "/public/images/pizzas/Hot-Spicy.jpg",
+      "name": "Hot-Spicy",
+      "Description": "Italian Sausage, Tomato, Onions, Green Pepper, Jalapeno",
+        "nameAR": "هوت اند سبايسى",
+      "DescriptionAR": "سجق ايطالي, طماطم, بصل, فلفل اخضر, هالبينو",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "378",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 12,
+      "image": "/public/images/pizzas/Little-Italy.jpg",
+      "name": "Little Italy",
+      "Description": "Pepperoni, Italian Sausage, Fresh Mushroom, Black Olives, Oregano",
+      "nameAR": "ليتل ايطالى",
+      "DescriptionAR": "بيبرونى, سجق ايطالي, مشروم طازج, زيتون اسود, زعتر",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "378",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 13,
+      "image": "/public/images/pizzas/Margherita.jpg",
+      "name": "Margherita",
+      "Description": "Mozzarella Cheese and Pizza Sauce",
+            "nameAR": " مارجريتا",
+      "DescriptionAR": " جبنة موتزاريلا و صوص البيتزا",
+      "originalSmall": "102",
+      "originalMedium": "165",
+      "originalLarge": "243",
+      "stuffedMedium ": "235",
+      "stuffedLarge ": "243",
+      "thinLarge ": "219",
+      "cheeseLarge ": "323",
+      "cheeseMedium ": "312"
+    },
+    {
+      "id": 14,
+      "image": "/public/images/pizzas/Mexican-Ole.jpg",
+      "name": "Mexican Ole",
+      "Description": "Grilled Chicken, Tomato, Onions, Green Pepper, Fresh Mushroom, Jalapeno",
+      "nameAR": "البيتزا المكسيكيه",
+      "DescriptionAR": "دجاج مشوي, طماطم, بصل, فلفل اخضر, مشروم طازج, هالبينو",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "298",
+      "thinLarge ": "274",
+      "cheeseLarge ": "323",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 15,
+      "image": "/public/images/pizzas/Pepperoni.jpg",
+      "name": "Pepperoni",
+      "Description": "Loaded with Pepperoni and Extra Mozzarella Cheese",
+      "nameAR": "بيبرونى",
+      "DescriptionAR": "كمية أكثر من البيبرونى مع كمية إضافية من الجبنة الموتزاريلا",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "298",
+      "stuffedLarge ": "290",
+      "thinLarge ": "278",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 16,
+      "image": "/public/images/pizzas/Ranch-Chicken-Poppers-WS-jpg.jpg",
+      "name": "Ranch Chicken Poppers",
+      "Description": "Grilled Chicken, Chicken Sausage, Chicken Pepproni, Onions, Green Pepper, Fresh Mushroom, Black Olives",
+      "nameAR": "تشيكن رانش بوبرز",
+      "DescriptionAR": "تشيكن بوبرز- بصل-فلفل اخضر, هالبينو- الجبنة الموتزاريلا, صوص الرانش",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "278",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 17,
+      "image": "/public/images/pizzas/Ranch-Chicken-Super-Papa-WS.jpg",
+      "name": "Ranch Chicken Super Papa",
+      "Description": "Grilled chicken, Chicken Sausage, chicken Pepperoni, Fresh Mushroom, Onion, Green Pepper & Black Olives with Ranch sauce ",
+      "nameAR": "تشيكن رانش سوبر بابا",
+      "DescriptionAR": "دجاج مشوي, سجق الدجاج, بيبرونى الدجاج, بصل, فلفل اخضر, مشروم طازج, زيتون اسود، صوص الرانش",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "278",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 18,
+      "image": "/public/images/pizzas/Ranch-Garden-Special-WS.jpg",
+      "name": "Ranch Garden Special",
+      "Description": "Tomato, Onions, Green Pepper, Fresh Mushroom, Black Olives, Ranch Sauce",
+      "nameAR": "جاردن سبيشيال",
+      "DescriptionAR": "طماطم, بصل, فلفل اخضر, مشروم طازج, زيتون اسود",
+      "originalSmall": "157",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "290",
+      "stuffedLarge ": "278",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    },
+    {
+      "id": 19,
+      "image": "/public/images/pizzas/Shrimp-Ranch-WS.jpg",
+      "name": "Shrimp Ranch",
+      "Description": "Shrimps, Tomato, Onions, Green Pepper, Ranch Sauce",
+      "nameAR": "شريمب رانش",
+      "DescriptionAR": "جمبري, طماطم, بصل, فلفل اخضر, صوص الرانش",
+      "originalSmall": "197",
+      "originalMedium": "270",
+      "originalLarge": "368",
+      "stuffedMedium ": "340",
+      "stuffedLarge ": "448",
+      "thinLarge ": "368",
+      "cheeseLarge ": "324",
+      "cheeseMedium ": "437"
+    },
+    {
+      "id": 20,
+      "image": "/public/images/pizzas/Shrimps.jpg",
+      "name": "Shrimps",
+      "Description": "Shrimps, Tomato, Onions, Green Pepper",
+      "nameAR": "بيتزا جمبرى",
+      "DescriptionAR": "جمبري, طماطم, بصل, فلفل اخضر",
+      "originalSmall": "197",
+      "originalMedium": "270",
+      "originalLarge": "368",
+      "stuffedMedium ": "340",
+      "stuffedLarge ": "448",
+      "thinLarge ": "368",
+      "cheeseLarge ": "324",
+      "cheeseMedium ": "437"
+    },
+    {
+      "id": 21,
+      "image": "/public/images/pizzas/Smoky-Ranch.jpg",
+      "name": "Smoky Ranch",
+      "Description": "Smoky cheese, Grilled chicken, chicken sausage, onions, green peppers, mozzarella cheese, ranch sauce.",
+      "nameAR": "سموكي رانش",
+      "DescriptionAR": "جبن مدخن فلفل اخضر بصل جبنة موتزاريلا صوص رانش دجاج مشوي, سجق الدجاج",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "328",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "408",
+      "thinLarge ": "328",
+      "cheeseLarge ": "328",
+      "cheeseMedium ": "397"
+    },
+    {
+      "id": 22,
+      "image": "/public/images/pizzas/Smoky.jpg",
+      "name": "Smoky",
+      "Description": "Smoked Veal, Smoked Cheese, Onions, Gouda Cheese, Chedder Cheese, Creamy Sauce",
+      "nameAR": " البيتزا المدخنه",
+      "DescriptionAR": "لحم بتلو مدخن, جبن مدخن, بصل, جبنة جودة, جبنة شيدر, صوص الكريمه",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "343",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "423",
+      "thinLarge ": "343",
+      "cheeseLarge ": "328",
+      "cheeseMedium ": "412"
+    },
+    {
+      "id": 23,
+      "image": "/public/images/pizzas/spanish-ranch-twist-WS.jpg",
+      "name": "spanish ranch twist",
+      "Description": "Ranch Sauce, Grilled Chicken, Chicken Sausage, Onion, Green Pepper, Cheese",
+      "nameAR": "بيتزا أسبانى رانش",
+      "DescriptionAR": "جبنة موتزاريلا - فلفل اخضر – بصل – سجق دجاج – دجاج مشوى – صوص رانش",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "328",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "408",
+      "thinLarge ": "328",
+      "cheeseLarge ": "304",
+      "cheeseMedium ": "397"
+    },
+    {
+      "id": 24,
+      "image": "/public/images/pizzas/Spicy-Pepperoni-Ranch-Pizza.jpg",
+      "name": "Spicy Pepperoni Ranch",
+      "Description": "Pepperoni, Jalapeno, Mozzarella Cheese and Ranch Sauce",
+      "nameAR": "سبايسي بيبرونى رانش",
+      "DescriptionAR": "بيبروني، هالبينو، جبنة موزاريلا و صوص الرانش",
+      "originalSmall": "187",
+      "originalMedium": "250",
+      "originalLarge": "328",
+      "stuffedMedium ": "320",
+      "stuffedLarge ": "408",
+      "thinLarge ": "328",
+      "cheeseLarge ": "304",
+      "cheeseMedium ": "397"
+    },
+    {
+      "id": 25,
+      "image": "/public/images/pizzas/Super-Papa.jpg",
+      "name": "Super Papa",
+      "Description": "Pepperoni, Italian Sausage, Smoked Veal, Onions, Green Pepper, Fresh Mushroom, Black Olives",
+      "nameAR": "سوبر بابا",
+      "DescriptionAR": "بيبرونى, سجق ايطالي, لحم بتلو مدخن, بصل, فلفل اخضر, مشروم طازج, زيتون اسود",
+      "originalSmall": "175",
+      "originalMedium": "220",
+      "originalLarge": "298",
+      "stuffedMedium ": "298",
+      "stuffedLarge ": "290",
+      "thinLarge ": "298",
+      "cheeseLarge ": "274",
+      "cheeseMedium ": "367"
+    }
+
+  ],
+    "appetizers": [
+    {
+      "id": 1,
+      "image": "/public/images/appetizers/Bread-Sticks.jpg",
+      "name": "Bread Stickss",
+      "Description": "Delicious oven - baked sticks. Served with BBQ Sauce",
+            "nameAR": "بريد ستيكس",
+      "DescriptionAR": "اصابع من عجينة بابا جونز الطازجة مخبوزة وتقدم مع صوص الباربيكيو.",
+      "price": "46"
+    },
+    {
+      "id": 2,
+      "image": "/public/images/appetizers/cheesey-breadsticks.jpg",
+      "name": "Cheesy Bread Sticks",
+      "Description": "Delicious oven - baked sticks. Served with BBQ Sauce",
+            "nameAR": "تشيزي بريد ستيكس",
+      "DescriptionAR": "اصابع من عجينة بابا جونز الطازجة مخبوزة وتقدم مع صوص الباربيكيو. ",
+      "price": "76"
+    },
+    {
+      "id": 3,
+      "image": "/public/images/appetizers/Cheese-Sticks.jpg",
+      "name": "Cheese Sticks",
+      "Description": "Fresh Papa John`s dough with a blend of Garlic Sauce and Mozzrella cheese, Served with BBQ Sauce.",
+            "nameAR": " تشيز ستيكس ",
+      "DescriptionAR": "عجينة بابا جونز الطازجة مع خليط لذيذ من صوص الثوم و الجبنة الموتزاريلا تقدم مع صوص الباربيكيو. ",
+      "price": "101"
+    },
+    {
+      "id": 4,
+      "image": "/public/images/appetizers/Potato-Wedges-2.jpg",
+      "name": "Potato Wedges",
+      "Description": "Seasoned potato wedges.",
+            "nameAR": "بطاطس ودجز",
+      "DescriptionAR": "بطاطس ودچز ذهبية ومتبلة ",
+      "price": "79"
+    },
+    {
+      "id": 5,
+      "image": "/public/images/appetizers/Spicy-Pepperoni-Ranch-Rolls-item.jpg",
+      "name": "Spicy Pepperoni Ranch Rolls",
+      "Description": "8 Rolls stuffed with Pepperoni, Jalapeno, Mozzarella Cheese and Ranch Sauce",
+           "nameAR": " سبايسي بيبرونى رانش رولز",
+      "DescriptionAR": "8 رول محشوة بيبروني، هالبينو، جبنة موزاريلا و صوص رانش",
+      "price": "155"
+
+    },
+    {
+      "id": 6,
+      "image": "/public/images/appetizers/Pepperoni-Rolls.jpg",
+      "name": "Pepperoni Rolls",
+      "Description": "Pepperoni Rolls Served with Ranch Sauce",
+            "nameAR": "بيبرونى رولز",
+      "DescriptionAR": "قطع من البيبرونى رولز بكريمة الرانش ",
+      "price": "155"
+    },
+    {
+      "id": 7,
+      "image": "/public/images/appetizers/Chicken-Ranch-Roll-WS.jpg",
+      "name": "Chicken Ranch Rolls",
+      "Description": "Grilled Chicken, Onions, Fresh Mushroom, BBQ Sauce",
+            "nameAR": " تشيكن رانش رولز",
+      "DescriptionAR": "دجاج مشوي, بصل, مشروم طازج, صوص الباربكيو",
+      "price": "155"
+    },
+    {
+      "id": 8,
+      "image": "/public/images/appetizers/3-Cheese-Roll-WS.jpg",
+      "name": "3 Cheese Rolls",
+      "Description": "Grilled Chicken, Tomato, Fresh Mushroom, Jalapeno, Ranch Sauce",
+            "nameAR": "3 تشيز رولز ",
+      "DescriptionAR": "دجاج مشوي, طماطم, مشروم طازج, هالبينو, صوص الرانش",
+      "price": "155"
+    },
+    {
+      "id": 9,
+      "image": "/public/images/appetizers/Grilled-Chicken-Wings.jpg",
+      "name": "Grilled Chicken Wings",
+      "Description": "Savory wings baked to the bone served with barbeque sauce",
+ "nameAR": "اجنحة الدجاج المشوية",
+      "DescriptionAR": " أجنحة دجاج متبلة ولذيذة تقدم مع صوص الباربكيو. ",
+      "price": "198"
+    },
+    {
+      "id": 10,
+      "image": "/public/images/appetizers/Potato-Wedges-2.jpg",
+      "name": "Spicy Chicken Wings",
+      "Description": "Savory wings baked to the bone served with barbeque sauce",
+       "nameAR": "اجنحة الدجاج الحارة",
+      "DescriptionAR": "أجنحة دجاج متبلة ولذيذة تقدم مع صوص الباربكيو.",
+      "price": "189"
+    },
+    {
+      "id": 11,
+      "image": "/public/images/appetizers/Spicy-Chicken-Wings.jpg",
+      "name": "BBQ Chicken Wings",
+      "Description": "Savory wings baked to the bone served with barbeque sauce",
+        "nameAR": "اجنحة الدجاج الباربكيو",
+      "DescriptionAR": "أجنحة دجاج متبلة ولذيذة تقدم مع صوص الباربكيو.",
+      "price": "198"
+    },
+    {
+      "id": 12,
+      "image": "/public/images/appetizers/Chicken-Poppers.jpg",
+      "name": "Chicken Poppers",
+      "Description": "9 pieces of Tender all-white chicken breasts, breaded and oven baked, Served with Ranch Sauce",
+      "nameAR": "اجنحة الدجاج الحارة",
+      "DescriptionAR": "أجنحة دجاج متبلة ولذيذة تقدم مع صوص الباربكيو. ",
+      "price": "198"
+
+    }
+
+  ],
+      "desserts": [
+    {
+      "id": 1,
+      "image": "/public/images/desserts/Cookies-and-Cream-Agregators.jpg",
+      "name": "Cookies 'N Cream",
+      "Description": "Crispy & Thin Dough stuffed with Cheesecake Filling, Minced cookies with chocolate sauce",
+            "nameAR": "كوكيز اند كريم كرانشي",
+      "DescriptionAR": "كريسبي ساندويتش عجينة محشو بحشوة التشيز كيك، كوكيز مفرومة مع صلصة الشوكولاتة",
+      "price": "110"
+    },
+    {
+      "id": 2,
+      "image": "/public/images/desserts/chocolate-pie.jpg",
+      "name": "Chocolate Pie",
+      "Description": "Chocolate Pie prifect",
+            "nameAR": "فطيرة شيكولاتة",
+      "DescriptionAR": "فطيره شيكولاته ممتازه ",
+      "price": "85"
+    },
+    {
+      "id": 3,
+      "image": "/public/images/desserts/choco-rolls.jpg",
+      "name": "Choco Rolls",
+      "Description": "Choco Rolls prefect",
+            "nameAR": " شوكو رولز ",
+      "DescriptionAR": "شوكو رولز ممتاز من بابا جونز ",
+      "price": "69"
+    },
+    {
+      "id": 4,
+      "image": "/public/images/desserts/Pepsi.jpg",
+      "name": "pepsi",
+      "Description": "pepsi large",
+            "nameAR": "بيبسي",
+      "DescriptionAR": "بيبسي الحجم الكبير ",
+      "price": "49"
+    },
+    {
+      "id": 5,
+      "image": "/public/images/desserts/Mirinda.jpg",
+      "name": "Mirinda",
+      "Description": "Mirinda large",
+           "nameAR": " مريندا",
+      "DescriptionAR": " مريندا الحجم الكبير",
+      "price": "49"
+
+    },
+    {
+      "id": 6,
+      "image": "/public/images/desserts/7up.jpg",
+      "name": " 7up",
+      "Description": "7up large",
+            "nameAR": "سيفن اب  ",
+      "DescriptionAR": "سيفن اب الحجم الكبير ",
+      "price": "49"
+      
+    }
+  ],
+        "crunchy": [
+    {
+      "id": 1,
+      "image": "/public/images/Crunchy/Spicy-Italian.jpg",
+      "name": "Spicy Chicken Ranch",
+      "Description": "Crispy & Thin Pizza sandwich stuffed with Grilled Chicken, Mushrooms, Tomatoes, Jalapeno, Cheese and Ranch Sauce",
+            "nameAR": "تشيكن رانش حار",
+      "DescriptionAR": "كريسبي ساندوتش بيتزا محشو دجاج مشوي، مشروم، طماطم، هالبينو، جبنة و صوص رانش",
+      "price": "160"
+    },
+    {
+      "id": 2,
+      "image": "/public/images/Crunchy/Smoky-ranch.jpg",
+      "name": "Smokey Chicken Ranch",
+      "Description": "Crispy & Thin Pizza sandwich stuffed with Grilled Chicken, Chicken Sausage, Onions, Green Peppers, Cheese, Smokey Sauce and Ranch Sauce",
+            "nameAR": " سموكي تشيكن رانش",
+      "DescriptionAR": "كريسبي ساندويتش بيتزا محشو بالدجاج المشوي، سجق الدجاج، البصل، الفلفل الأخضر، الجبن، صلصة مدخنة وصلصة رانش",
+      "price": "160"
+    },
+    {
+      "id": 3,
+      "image": "/public/images/Crunchy/Spicy-Iranch.jpg",
+      "name": "Spicy Italian ",
+      "Description": "Crispy & Thin Pizza sandwich stuffed with Italian Sausage, Pepperoni, Jalapeno, Cheese and Pizza Sauce",
+            "nameAR": " إيطالية حارة ",
+      "DescriptionAR": "كريسبي ساندوتش بيتزا محشو سجق إيطالي، بيبروني، هالبينو ، جبنة و صلصة بيتزا ",
+      "price": "190"
+    },
+    {
+      "id": 4,
+      "image": "/public/images/Crunchy/Pepperoni-&-Sausage.jpg",
+      "name": "Pepperoni & Sausage",
+      "Description": "Crispy & Thin Pizza sandwich stuffed with Italian Sausage, Pepperoni, Cheese and Pizza Sauce",
+            "nameAR": " بيبروني وسجق",
+      "DescriptionAR": "عجين كريسبي و رفيعة محشو بسجق إيطالي، وبيبروني، وجبن، وصوص بيتزا",
+      "price": "190"
+    },
+    {
+      "id": 5,
+      "image": "/public/images/Crunchy/Garden.jpg",
+      "name": "Garden Crunchy ",
+      "Description": "Crispy & Thin Pizza sandwich stuffed with Mushrooms, Onions, Green Peppers, Black Olives, Tomatoes, Cheese and Ranch Sauce",
+           "nameAR": " جاردن كرانشي بابادياس",
+      "DescriptionAR": " كريسبي ساندوتش بيتزا محشوة مشروم، بصل، فلفل أخضر، زيتون أسود، طماطم، جبنة و صلصة رانش",
+      "price": "120"
+
+    }
+  ],
+  "branches":[
+  {
+    "id": 1,
+    "nameAR": "فرع مدينة نصر",
+    "nameEN": "Nasr City Branch",
+    "addressAR": "شارع الطيران، بجوار ماكدونالدز، مدينة نصر، القاهرة",
+    "addressEN": "Tayaran Street, next to McDonald's, Nasr City, Cairo",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  },
+  {
+    "id": 2,
+    "nameAR": "فرع المعادي",
+    "nameEN": "Maadi Branch",
+    "addressAR": "شارع 9، المعادي، القاهرة",
+    "addressEN": "Street 9, Maadi, Cairo",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  },
+  {
+    "id": 3,
+    "nameAR": "فرع المهندسين",
+    "nameEN": "Mohandessin Branch",
+    "addressAR": "26 شارع شهاب، المهندسين، الجيزة",
+    "addressEN": "26 Shehab St., Mohandessin, Giza",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  },
+  {
+    "id": 4,
+    "nameAR": "فرع 6 أكتوبر",
+    "nameEN": "6th October Branch",
+    "addressAR": "مول العرب، ميدان جهينة، 6 أكتوبر، الجيزة",
+    "addressEN": "Mall of Arabia, Juhayna Square, 6th October, Giza",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  },
+  {
+    "id": 5,
+    "nameAR": "فرع الزمالك",
+    "nameEN": "Zamalek Branch",
+    "addressAR": "شارع 26 يوليو، بجوار ساقية الصاوي، الزمالك، القاهرة",
+    "addressEN": "26th July St., near El Sawy Culture Wheel, Zamalek, Cairo",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  },
+  {
+    "id": 6,
+    "nameAR": "فرع التجمع الخامس",
+    "nameEN": "New Cairo Branch",
+    "addressAR": "الداون تاون، شارع التسعين، التجمع الخامس، القاهرة الجديدة",
+    "addressEN": "Downtown Mall, 90 Street, Fifth Settlement, New Cairo",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  },
+  {
+    "id": 7,
+    "nameAR": "فرع سموحة - الإسكندرية",
+    "nameEN": "Smouha Branch - Alexandria",
+    "addressAR": "شارع فوزي معاذ، بجوار نادي سموحة، سموحة، الإسكندرية",
+    "addressEN": "Fawzy Moaz St., next to Smouha Club, Alexandria",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  },
+  {
+    "id": 8,
+    "nameAR": "فرع سان ستيفانو - الإسكندرية",
+    "nameEN": "San Stefano Branch - Alexandria",
+    "addressAR": "سان ستيفانو مول، طريق الكورنيش، الإسكندرية",
+    "addressEN": "San Stefano Mall, Corniche Road, Alexandria",
+    "phone": "19000",
+    "workingHoursAR": "يومياً من 10 صباحاً حتى 2 صباحاً",
+    "workingHoursEN": "Daily from 10:00 AM to 2:00 AM"
+  }
+]
+
+
+    
+}
+
+
+
+
