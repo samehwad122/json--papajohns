@@ -4,7 +4,7 @@ import axios from "axios";
 export const apiContext = createContext();
 
 export const ApiContextProvider = ({ children }) => {
-  const url = 'https://json-papajohns-production.up.railway.app/';
+  const url = 'https://json-papajohns-production.up.railway.app';
 
   const [allpostars, setAllPostars] = useState([]);
   const [allPizzas, setAllPizzas] = useState([]);
