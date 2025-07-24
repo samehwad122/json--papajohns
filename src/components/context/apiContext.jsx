@@ -20,7 +20,6 @@ export const ApiContextProvider = ({ children }) => {
       const { data, error } = await supabase.from("postars").select("*");
       if (error) throw error;
       setAllpostars(data);
-true
     } catch (error) {
       setAllpostars([]);
     }
